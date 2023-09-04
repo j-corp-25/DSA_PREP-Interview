@@ -11,3 +11,9 @@ const findNemo = (array) => {
 findNemo(large)
 
 // This is linear time O(n)
+
+const boxes = (boxes) => {
+    console.log(boxes[0]);
+}
+
+// This is constant time O(1)
