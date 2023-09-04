@@ -9,3 +9,5 @@ const findNemo = (array) => {
 }
 
 findNemo(large)
+
+// This is linear time O(n)

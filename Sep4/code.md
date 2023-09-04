@@ -14,4 +14,4 @@ __We can calculate it by counting the amount of operations in the algorithm that
 
 ![LinearTime](/Snips/LinearTime.png)
 
-This is linear time O(n) meaning that the more elements we have the more operations we would also have. So if we have 1000 elements of `n` would also perform 1000 operations
+This is linear time O(n) meaning that the more elements we have the more operations we would also have. So if we have 1000 elements of `n` would also perform 1000 operations. In other words the operations increase at the same rate the elements increase.
