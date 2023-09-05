@@ -53,3 +53,5 @@ Nested loops would be a n * n operation making it a BigO of n^2 which would be a
 
 > Quadratic Time
 ![QuadraticTime](/Snips/QuadraticTime.png)
+
+
