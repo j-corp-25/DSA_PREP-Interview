@@ -49,4 +49,7 @@ function anotherFunChallenge(input) {
 
 The function above would be a O(n) example because there are two loops and each loop would be O(n) and having two would mean 2n which simplifies to n removing the constant.
 
-Nested loops would be a n * n operation making it a BigO of n^2 which would be a decrease in perfomance
+Nested loops would be a n * n operation making it a BigO of n^2 which would be a decrease in perfomance. This also means quadratic time. This means for `n` elements the operations increase by the power.
+
+> Quadratic Time
+![QuadraticTime](/Snips/QuadraticTime.png)
