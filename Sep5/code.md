@@ -33,3 +33,21 @@ This would be a space complexity of O(1). The more variables are assigned in the
 - Coding skills
 - Technical skills
 - Communication skills
+
+## __Data Structures__
+
+- Arrays
+- Stacks
+- Queues
+- Linked Lists
+- Trees
+- Tries
+- Graphs
+- Hash Tables
+
+## Algorithms
+
+- Sorting
+- Dynamic Programming
+- BFS + DFS (Searching)
+- Recursion
