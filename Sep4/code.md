@@ -47,4 +47,4 @@ function anotherFunChallenge(input) {
 
 ```
 
-The function above would be a n^2 example because there are two loops and each loop would be O(n) and having two would mean n * n equalling n^2
+The function above would be a O(n) example because there are two loops and each loop would be O(n) and having two would mean 2n which simplifies to n removing the constant.
