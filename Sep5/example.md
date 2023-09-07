@@ -11,14 +11,26 @@
 3. What is the most important value of the problem? Do you have time, and space and memory,
 etc.. What is the main goal?
     - the important value 8
+    - Check that the sum is there, if not return no. that there are no pairs adding to that specific sum
+    - You cant repeat the same number on the same index, but you can use the same number on a different index
 
 4. Don't be annoying and ask too many questions.
+    - Are the numbers integers? Floating, can they be negative?
 
 5. Start with the naive/brute force approach. First thing that comes into mind. It shows that you’re able to think well and critically (you don't need to write this code, just speak about it).
 
+    - Using 2 for loops could work, but it would be very time consuming
+    - Quadratic should not be an option
+
 6. Tell them why this approach is not the best (i.e. O(n^2) or higher, not readable, etc...)
 
+    - This is too time consuming
+    - Using binary search would still be too slow, it would log of n actually
+    - Hash map?
+
 7. Walk through your approach, comment things and see where you may be able to break things. Any repetition, bottlenecks like O(N^2), or unnecessary work? Did you use all the information the interviewer gave you? Bottleneck is the part of the code with the biggest Big O. Focus on that. Sometimes this occurs with repeated work as well.
+
+    - I think this will be like a window problem, this would close in from the left and right until the sum is solved. Maybe also a 2 pointer? Because its pointing on the first and last, this is assuming its a sorted array. Because you wont waste an extra step having to sort the inputs.
 
 8. Before you start coding, walk through your code and write down the steps you are going to follow.
 
