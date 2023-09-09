@@ -7,3 +7,6 @@
 //const array1 = ['a','b','c','x'];
 //const array2 = ['z','y','x];
 //should return true
+//there are two inputs
+//the arrays can get very big
+//
