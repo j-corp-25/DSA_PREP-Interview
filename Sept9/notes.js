@@ -1,4 +1,4 @@
-//normal loop
+//Different loops
 
 const array = ['larry','nemo']
 
