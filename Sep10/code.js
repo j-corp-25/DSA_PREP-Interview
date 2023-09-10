@@ -16,3 +16,17 @@ const containCommonItem = (arr1, arr2) => {
 console.log(containCommonItem(arr1, arr2))
 
 // this is not a good speed
+//!when there nested loops you can use hash tables
+// TODO we can implemtent this using obj in js
+
+// array1 ==> obj{
+//  a: true,
+//  b: true,
+//  c: true,
+//  d: true,
+//}
+
+const containsCommonItems2 = (arr1,arr2) => {
+    //loop through first array and create object where properties ===items in the array
+    //loop through second array and check if the item in second array exists on created object
+}
