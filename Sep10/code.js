@@ -50,3 +50,13 @@ console.log(containsCommonItems2(arr1,arr2))
 //? Cleaner way of doing it
 
 
+
+const arr1 =  ['a','b','c','x']
+const arr2 = ['z','b','l']
+
+const containsCommonItem3 = (arr1,arr2) => {
+    return arr1.some(item => arr2.includes(item))
+
+}
+
+console.log(containsCommonItem3(arr1,arr2))
