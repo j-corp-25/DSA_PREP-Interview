@@ -45,3 +45,8 @@ const containsCommonItems2 = (arr1,arr2) => {
     return false
 }
 console.log(containsCommonItems2(arr1,arr2))
+
+
+//? Cleaner way of doing it
+
+
