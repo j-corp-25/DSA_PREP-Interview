@@ -29,8 +29,18 @@
 # print(int(num) - 5)
 
 #? Using methods
-hello = 'hello'.upper()
-print(hello)
+# hello = 'hello'.upper()
+# print(hello)
 
-hello = 'hellO world'
-print(hello.lower().count('o'))
+# hello = 'hellO world'
+# print(hello.lower().count('o'))
+
+# hello = 'hellO world'
+# print(hello.capitalize())
+# print(hello.count("o"))
+
+#? Concat
+x = "hj"
+y = "jordy"
+
+print(x + y)
