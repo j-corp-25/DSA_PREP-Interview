@@ -31,3 +31,6 @@
 #? Using methods
 hello = 'hello'.upper()
 print(hello)
+
+hello = 'hellO world'
+print(hello.lower().count('o'))
