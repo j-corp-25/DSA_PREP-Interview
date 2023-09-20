@@ -10,4 +10,4 @@ One of the cons is that it can allocate to the same memory address which causes 
 
 You can adress this by using different strats such as Open addressing and Robin hood hashing.
 
-
+A major downside is that when we want to retreive the keys of the hash we have to loop through the entire memory space which. This is one of the cons if your strategy uses some sort of retrieving keys from a hash or hash table
