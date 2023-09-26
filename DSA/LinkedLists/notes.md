@@ -19,3 +19,14 @@ The above example shows how refencing/pointers work. We set up pointer to object
 You can delete the original reference and if the pointer still remains without modifications it will still be referencing the original one.
 
 A node is a bucket of data
+
+LL PROS and CONS
+
+PRO
+
+Fast Insertion, Fast Deletion, Ordered, Flexible Size
+
+CON
+
+Slow LookUp
+More Memory
