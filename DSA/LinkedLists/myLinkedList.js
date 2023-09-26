@@ -62,6 +62,14 @@ class LinkedList {
         return currentNode
     }
 
+    remove(index){
+        const leader = this.traverseToIndex(index - 1);
+        const unwantedNode = leader.next;
+        leader.next = unwantedNode.next;
+        this.length--
+        return this.printlist
+    }
+
 
     insert(index, value) {
 
@@ -74,7 +82,7 @@ class LinkedList {
         const leader = this.traverseToIndex(index - 1)
         const holdingPointer = leader.next
         leader.next = newNode
-        
+
         newNode.next = holdingPointer
         this.length++
         return this.printlist()
@@ -89,5 +97,7 @@ console.log(myLinkedList.append(16))
 console.log(myLinkedList.prepend(100))
 console.log(myLinkedList.insert(2,99))
 console.log(myLinkedList.printlist())
+console.log(myLinkedList.remove(2))
+console.log(myLinkedList.printlist())
 
-console.log(myLinkedList)
+
