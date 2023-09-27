@@ -1,5 +1,5 @@
 // LL IMPLEMENTATION OF QUEUE
-
+// FIFO
 class Node {
     constructor(value){
         this.value = value,
@@ -24,15 +24,23 @@ class Queue {
             this.first = newNode
             this.last = newNode
         }else {
-            const holdingPointer = this.first;
-            this.first = newNode
-            this.first.next = holdingPointer
+           this.last.next = newNode;
+           this.last = newNode;
         }
         this.length++
         return this;
 
     }
     dequeue(){
+        if(!this.first){
+            return null
+        }
+        if (this.first === this.last){
+            this.last = null
+        }
+        this.first = this.first.next
+        this.length--
+        return this
 
     }
 
@@ -44,3 +52,4 @@ console.log(myQueue.enqueue("Salome"))
 console.log(myQueue.enqueue("Jordy"))
 console.log(myQueue.enqueue("Elizabeth"))
 console.log(myQueue.peek())
+console.log(myQueue.dequeue())

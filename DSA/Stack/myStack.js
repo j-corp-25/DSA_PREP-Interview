@@ -1,5 +1,6 @@
 
 // LINK LIST IMPLEMENTATION OF STACKS
+//LIFO
 class Node {
     constructor(value){
         this.value = value,
