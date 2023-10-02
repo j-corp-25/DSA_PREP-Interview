@@ -28,3 +28,11 @@ There is also Binary Heaps which uses a priority queue and uses the least amount
 + Fast insert
 
 - Still no O(1) operations
+
+## Trie
+
+It is a prefix tree which is good for searching for words in a dictionary
+
+It is prefixed with letters that make up a certain word.
+
+*** need to know how to build a BST for interview
