@@ -12,4 +12,19 @@ Binary Search Trees run at O(log n)
 
 There is also Binary Heaps which uses a priority queue and uses the least amount of space, It inserts from left to right so there is a form of order. It is very memory effiecient.
 
-In 
+## Binary Search Trees pros and cons
+
++ Better than O(n)
++ Ordered
++ Flexible
+
+- There is no O(1) operations
+
+## Binary Heaps
+
++ Better than O(n)
++ Priority
++ Flexible Size
++ Fast insert
+
+- Still no O(1) operations
