@@ -32,3 +32,7 @@ Quiz:
 ![Graph_1](./Example_one.png)
 
 ## This is a Cyclic un weighted un directed graph
+
+An example of a dyrected Acyclic graph
+
+![Graph_1](./DirectedAcyclicGraph.png)
