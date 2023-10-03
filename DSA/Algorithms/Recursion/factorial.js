@@ -11,6 +11,9 @@ console.log(findFactorialRecursive(10))
 
 const findFactorialIterative = (n) => {
     let answer = 1;
+    if (number === 2){
+        answer = 2;
+    }
     for (let i = 2; i <= n;i++) {
         answer = answer * i
     }

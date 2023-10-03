@@ -71,6 +71,14 @@ console.log(tree.insert(11))
 console.log(tree.lookup(12))
 
 
+const traverse = (node) => {
+    const tree = {value: node.value };
+    tree.left = node.left === null ? null :
+    traverse(node.left);
+    tree.right = node.right === null ? null :
+    traverse(node.right)
+    return tree;
+}
 // console.log(tree.insert(12))
 // console.log(tree.insert(5))
 // console.log(tree)
