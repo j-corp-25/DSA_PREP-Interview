@@ -63,3 +63,17 @@ Finding the shortest path:
     - BFS
 
 ### BFS
+
+### Shortest Path Question on a weigthed gragh
+
+We have the option for Dijkstra Algo and Bellman
+
+- Dijkstra is good for weighted graphs that are weighted but dont have negative weights when it coms to finding the shortest path.
+
+- Bellman is good for shortest path on a weigthed graph that has negative weigths
+
+### DFS
+
+- Really good to check if node exists
+- Really good for mazes
+- 
