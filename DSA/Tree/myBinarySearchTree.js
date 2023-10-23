@@ -117,27 +117,39 @@ const traverseInOrder = (node, list) => {
 const traversePreOrder = (node, list) => {
     list.push(node.value)
     if(node.left){
-        traverseInOrder(node.left,list)
+        traversePreOrder(node.left,list)
     }
     if(node.right){
-        traverseInOrder(node.right,list)
+        traversePreOrder(node.right,list)
     }
+    return list
+
+}
+const traversePostOrder = (node, list) => {
+    if(node.left){
+        traversePostOrder(node.left,list)
+    }
+    if(node.right){
+        traversePostOrder(node.right,list)
+    }
+    list.push(node.value)
     return list
 
 }
 const tree = new BinarySearchTree();
 
 console.log(tree.insert(9));
-console.log(tree.insert(12));
-console.log(tree.insert(8));
-console.log(tree.insert(40));
+console.log(tree.insert(4));
+console.log(tree.insert(1));
+console.log(tree.insert(6));
 console.log(tree.insert(20));
-console.log(tree.insert(5));
-console.log(tree.insert(11));
+console.log(tree.insert(15));
+console.log(tree.insert(170));
 // console.log(tree.breadthFirstSearch())
 // console.log(tree.breadthFirstSearchR([tree.root], []));
-// console.log(tree.DFSInorder())
+console.log(tree.DFSPostorder())
 console.log(tree.DFSPreorder())
+console.log(tree.DFSInorder())
 
 const traverse = (node) => {
   const tree = { value: node.value };
