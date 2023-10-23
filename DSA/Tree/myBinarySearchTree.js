@@ -90,6 +90,40 @@ class BinarySearchTree {
     }
     return this.breadthFirstSearchR(queue,list)
   }
+  DFSInorder() {
+    return traverseInOrder(this.root,[])
+
+  }
+  DFSPostorder() {
+    return traversePostOrder(this.root,[])
+
+  }
+  DFSPreorder() {
+    return traversePreOrder(this.root,[])
+
+  }
+}
+const traverseInOrder = (node, list) => {
+    if(node.left){
+        traverseInOrder(node.left,list)
+    }
+    list.push(node.value)
+    if(node.right){
+        traverseInOrder(node.right,list)
+    }
+    return list
+
+}
+const traversePreOrder = (node, list) => {
+    list.push(node.value)
+    if(node.left){
+        traverseInOrder(node.left,list)
+    }
+    if(node.right){
+        traverseInOrder(node.right,list)
+    }
+    return list
+
 }
 const tree = new BinarySearchTree();
 
@@ -100,8 +134,10 @@ console.log(tree.insert(40));
 console.log(tree.insert(20));
 console.log(tree.insert(5));
 console.log(tree.insert(11));
-console.log(tree.breadthFirstSearch())
-console.log(tree.breadthFirstSearchR([tree.root], []));
+// console.log(tree.breadthFirstSearch())
+// console.log(tree.breadthFirstSearchR([tree.root], []));
+// console.log(tree.DFSInorder())
+console.log(tree.DFSPreorder())
 
 const traverse = (node) => {
   const tree = { value: node.value };
@@ -112,3 +148,13 @@ const traverse = (node) => {
 // console.log(tree.insert(12))
 // console.log(tree.insert(5))
 // console.log(tree)
+
+
+//      9
+//  4       20
+//1   6   15  170
+
+// you can return items in three ways with DFS
+// Inorder [1,4,6,9,15,20,170]
+// Preorder [9,4,1,6,20,15,170] - useful if you want to recreate a tree
+// Postorder [1,6,4,15,170,20,9] -
