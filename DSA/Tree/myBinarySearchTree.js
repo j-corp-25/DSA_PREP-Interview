@@ -57,6 +57,7 @@ class BinarySearchTree {
         }
         return false
     }
+    breadthFirstSearch
 }
 const tree = new BinarySearchTree()
 

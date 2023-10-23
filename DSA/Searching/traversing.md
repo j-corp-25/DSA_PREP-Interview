@@ -38,3 +38,28 @@ DFS[9,4,1,6,20,15,170]
 - DFS
     1 Pros: Less Memory
     2 Cons: Can take a while if its a big Tree or graph
+
+### Pop Questions
+
+If you know a solution is not far from the root of the tree:
+    - BFS
+        - It starts searching the closest node to the parent
+
+If the tree is very deep and solutions are are:
+    - DFS nope
+    - BFS: DFS will take a very long time if its deep
+
+If the tree is very wide:
+    - BFS(nope)
+    - DFS: BFS will take too much memory to get across so DFS is a better option
+
+If solutions are frequent but located deep in the tree:
+    - DFS
+
+Determining whether a path exists between two nodes:
+    - DFS
+
+Finding the shortest path:
+    - BFS
+
+### BFS
