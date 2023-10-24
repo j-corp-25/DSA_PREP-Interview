@@ -19,4 +19,3 @@ Dynamic Programming
 2. Recursive Solution
 3. Are there repetitive subproblems
 4. Memoize subproblems
-
