@@ -12,3 +12,11 @@ const addTo80 = (n) => {
 };
 
 ```
+
+Dynamic Programming
+
+1. Can be divided into subproblem
+2. Recursive Solution
+3. Are there repetitive subproblems
+4. Memoize subproblems
+
