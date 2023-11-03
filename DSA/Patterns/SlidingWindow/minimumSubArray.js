@@ -21,6 +21,8 @@ const findSmallestSubArr = (arr, s) => {
     return 0;
   }
   return minLength;
+
+  
 };
 
 console.log(findSmallestSubArr([2, 1, 5, 2, 3, 2], 7));
